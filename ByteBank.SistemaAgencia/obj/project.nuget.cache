@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "cMuJwqUI3aGsJ4/ID2/S/DIFtpJ9aU54Z0Hxz+MhxsTT2nE16BZLksMVX8cElL5buCcM5kfzmY4fMb6Cd8kHBA==",
+  "success": true,
+  "projectFilePath": "E:\\C#\\ByteBank_05_Dll_bibliotecas\\ByteBank\\ByteBank.SistemaAgencia\\ByteBank.SistemaAgencia.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\guife\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.15\\microsoft.netcore.app.host.win-x64.5.0.15.nupkg.sha512"
+  ],
+  "logs": []
+}

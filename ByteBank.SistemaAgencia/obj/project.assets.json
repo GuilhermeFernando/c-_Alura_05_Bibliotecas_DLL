@@ -1,0 +1,100 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "ByteBank.Modelos/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/ByteBank.Modelos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ByteBank.Modelos.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ByteBank.Modelos/1.0.0": {
+      "type": "project",
+      "path": "../ByteBank.Modelos/ByteBank.Modelos.csproj",
+      "msbuildProject": "../ByteBank.Modelos/ByteBank.Modelos.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "ByteBank.Modelos >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\guife\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\C#\\ByteBank_05_Dll_bibliotecas\\ByteBank\\ByteBank.SistemaAgencia\\ByteBank.SistemaAgencia.csproj",
+      "projectName": "ByteBank.SistemaAgencia",
+      "projectPath": "E:\\C#\\ByteBank_05_Dll_bibliotecas\\ByteBank\\ByteBank.SistemaAgencia\\ByteBank.SistemaAgencia.csproj",
+      "packagesPath": "C:\\Users\\guife\\.nuget\\packages\\",
+      "outputPath": "E:\\C#\\ByteBank_05_Dll_bibliotecas\\ByteBank\\ByteBank.SistemaAgencia\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\guife\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "E:\\C#\\ByteBank_05_Dll_bibliotecas\\ByteBank\\ByteBank.Modelos\\ByteBank.Modelos.csproj": {
+              "projectPath": "E:\\C#\\ByteBank_05_Dll_bibliotecas\\ByteBank\\ByteBank.Modelos\\ByteBank.Modelos.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[5.0.15, 5.0.15]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
