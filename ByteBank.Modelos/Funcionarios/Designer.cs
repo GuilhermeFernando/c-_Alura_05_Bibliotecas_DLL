@@ -12,7 +12,7 @@ namespace ByteBank.Funcionarios
         {
 
         }
-        public override double GetBonificacao()
+        internal protected override double GetBonificacao()
         {
             return Salario *0.17;
         }

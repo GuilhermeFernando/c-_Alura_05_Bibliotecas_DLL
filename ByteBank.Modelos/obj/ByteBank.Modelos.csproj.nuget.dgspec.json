@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\C#\\ByteBank_05_Dll_bibliotecas\\ByteBank\\ByteBank.Modelos\\ByteBank.Modelos.csproj": {}
+    "E:\\C#\\ByteBank_05_Dll_bibliotecas\\ByteBank.Modelos\\ByteBank.Modelos.csproj": {}
   },
   "projects": {
-    "E:\\C#\\ByteBank_05_Dll_bibliotecas\\ByteBank\\ByteBank.Modelos\\ByteBank.Modelos.csproj": {
+    "E:\\C#\\ByteBank_05_Dll_bibliotecas\\ByteBank.Modelos\\ByteBank.Modelos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\C#\\ByteBank_05_Dll_bibliotecas\\ByteBank\\ByteBank.Modelos\\ByteBank.Modelos.csproj",
+        "projectUniqueName": "E:\\C#\\ByteBank_05_Dll_bibliotecas\\ByteBank.Modelos\\ByteBank.Modelos.csproj",
         "projectName": "ByteBank.Modelos",
-        "projectPath": "E:\\C#\\ByteBank_05_Dll_bibliotecas\\ByteBank\\ByteBank.Modelos\\ByteBank.Modelos.csproj",
+        "projectPath": "E:\\C#\\ByteBank_05_Dll_bibliotecas\\ByteBank.Modelos\\ByteBank.Modelos.csproj",
         "packagesPath": "C:\\Users\\guife\\.nuget\\packages\\",
-        "outputPath": "E:\\C#\\ByteBank_05_Dll_bibliotecas\\ByteBank\\ByteBank.Modelos\\obj\\",
+        "outputPath": "E:\\C#\\ByteBank_05_Dll_bibliotecas\\ByteBank.Modelos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

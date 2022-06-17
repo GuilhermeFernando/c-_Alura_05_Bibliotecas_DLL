@@ -1,0 +1,12 @@
+E:\C#\ByteBank_05_Dll_bibliotecas\ByteBank.Modelos\obj\Debug\net5.0\ByteBank.Modelos.csproj.AssemblyReference.cache
+E:\C#\ByteBank_05_Dll_bibliotecas\ByteBank.Modelos\obj\Debug\net5.0\ByteBank.Modelos.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\ByteBank_05_Dll_bibliotecas\ByteBank.Modelos\obj\Debug\net5.0\ByteBank.Modelos.AssemblyInfoInputs.cache
+E:\C#\ByteBank_05_Dll_bibliotecas\ByteBank.Modelos\obj\Debug\net5.0\ByteBank.Modelos.AssemblyInfo.cs
+E:\C#\ByteBank_05_Dll_bibliotecas\ByteBank.Modelos\obj\Debug\net5.0\ByteBank.Modelos.csproj.CoreCompileInputs.cache
+E:\C#\ByteBank_05_Dll_bibliotecas\ByteBank.Modelos\bin\Debug\net5.0\ByteBank.Modelos.deps.json
+E:\C#\ByteBank_05_Dll_bibliotecas\ByteBank.Modelos\bin\Debug\net5.0\ByteBank.Modelos.dll
+E:\C#\ByteBank_05_Dll_bibliotecas\ByteBank.Modelos\bin\Debug\net5.0\ref\ByteBank.Modelos.dll
+E:\C#\ByteBank_05_Dll_bibliotecas\ByteBank.Modelos\bin\Debug\net5.0\ByteBank.Modelos.pdb
+E:\C#\ByteBank_05_Dll_bibliotecas\ByteBank.Modelos\obj\Debug\net5.0\ByteBank.Modelos.dll
+E:\C#\ByteBank_05_Dll_bibliotecas\ByteBank.Modelos\obj\Debug\net5.0\ref\ByteBank.Modelos.dll
+E:\C#\ByteBank_05_Dll_bibliotecas\ByteBank.Modelos\obj\Debug\net5.0\ByteBank.Modelos.pdb

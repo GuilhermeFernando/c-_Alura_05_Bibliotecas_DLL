@@ -1,11 +1,4 @@
-﻿using ByteBank.Sistema;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ByteBank.Funcionarios
+﻿namespace ByteBank.Funcionarios
 {
     public class GerenteDeConta : FuncionarioAutenticavel
     {
@@ -13,7 +6,7 @@ namespace ByteBank.Funcionarios
         {
         }        
 
-        public override double GetBonificacao()
+        internal protected override double GetBonificacao()
         {
             return Salario * 0.25;
         }

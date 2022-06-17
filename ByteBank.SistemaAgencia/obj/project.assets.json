@@ -33,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\C#\\ByteBank_05_Dll_bibliotecas\\ByteBank\\ByteBank.SistemaAgencia\\ByteBank.SistemaAgencia.csproj",
+      "projectUniqueName": "E:\\C#\\ByteBank_05_Dll_bibliotecas\\ByteBank.SistemaAgencia\\ByteBank.SistemaAgencia.csproj",
       "projectName": "ByteBank.SistemaAgencia",
-      "projectPath": "E:\\C#\\ByteBank_05_Dll_bibliotecas\\ByteBank\\ByteBank.SistemaAgencia\\ByteBank.SistemaAgencia.csproj",
+      "projectPath": "E:\\C#\\ByteBank_05_Dll_bibliotecas\\ByteBank.SistemaAgencia\\ByteBank.SistemaAgencia.csproj",
       "packagesPath": "C:\\Users\\guife\\.nuget\\packages\\",
-      "outputPath": "E:\\C#\\ByteBank_05_Dll_bibliotecas\\ByteBank\\ByteBank.SistemaAgencia\\obj\\",
+      "outputPath": "E:\\C#\\ByteBank_05_Dll_bibliotecas\\ByteBank.SistemaAgencia\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -57,8 +57,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "E:\\C#\\ByteBank_05_Dll_bibliotecas\\ByteBank\\ByteBank.Modelos\\ByteBank.Modelos.csproj": {
-              "projectPath": "E:\\C#\\ByteBank_05_Dll_bibliotecas\\ByteBank\\ByteBank.Modelos\\ByteBank.Modelos.csproj"
+            "E:\\C#\\ByteBank_05_Dll_bibliotecas\\ByteBank.Modelos\\ByteBank.Modelos.csproj": {
+              "projectPath": "E:\\C#\\ByteBank_05_Dll_bibliotecas\\ByteBank.Modelos\\ByteBank.Modelos.csproj"
             }
           }
         }
