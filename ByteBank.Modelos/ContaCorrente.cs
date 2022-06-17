@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace ByteBank
 {
+    ///<summary>Esta classe define uma Conta corrente do banco ByteBank</summary>
     public class ContaCorrente
     {
+        
         private static int TaxaOperacao;
 
         public static int TotalDeContasCriadas { get; private set; }
