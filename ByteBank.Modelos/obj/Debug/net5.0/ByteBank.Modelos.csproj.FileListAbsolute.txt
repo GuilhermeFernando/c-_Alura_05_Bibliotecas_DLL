@@ -10,3 +10,4 @@ E:\C#\ByteBank_05_Dll_bibliotecas\ByteBank.Modelos\obj\Debug\net5.0\ByteBank.Mod
 E:\C#\ByteBank_05_Dll_bibliotecas\ByteBank.Modelos\obj\Debug\net5.0\ref\ByteBank.Modelos.dll
 E:\C#\ByteBank_05_Dll_bibliotecas\ByteBank.Modelos\obj\Debug\net5.0\ByteBank.Modelos.pdb
 E:\C#\ByteBank_05_Dll_bibliotecas\ByteBank.Modelos\bin\Debug\net5.0\ByteBank.Modelos.xml
+E:\C#\ByteBank_05_Dll_bibliotecas\ByteBank.Modelos\obj\Debug\net5.0\ByteBank.Modelos.csproj.AssemblyReference.cache
