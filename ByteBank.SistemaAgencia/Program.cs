@@ -8,23 +8,49 @@ namespace ByteBank.SistemaAgencia
     {
         static void Main(string[] args)
         {
+            Lista<int> idades = new Lista<int>();
+           
+        }
+
+        static void TestaListaDeObject()
+        {
+            ListaDeObject listaDeIdades = new ListaDeObject();
+
+            listaDeIdades.Adicionar(10);
+            listaDeIdades.Adicionar(11);
+            listaDeIdades.Adicionar(41);
+            listaDeIdades.Adicionar(22);
+            listaDeIdades.Adicionar(55);
+            listaDeIdades.AdicionarVarios(16, 15, 45);
+
+            for (int i = 0; i < listaDeIdades.Tamanho; i++)
+            {
+                int idade = (int)listaDeIdades[i];
+                Console.WriteLine($"Idade no indice {i}: {idade}");
+            }
+        }
+
+        static void TestaListaDeContaCorrente()
+        {
+
             ListaContaCorrente lista = new ListaContaCorrente();
 
-            ContaCorrente contaDoGui = new ContaCorrente(874, 588710);
-            /*lista.Adicionar(contaDoGui);
-            lista.Adicionar(new ContaCorrente(874, 58871));
-            lista.Adicionar(new ContaCorrente(874, 58872));
-            lista.Adicionar(new ContaCorrente(874, 58873));
-            lista.Adicionar(new ContaCorrente(874, 58874));
-            lista.Adicionar(new ContaCorrente(874, 58875));
-            lista.Adicionar(new ContaCorrente(874, 58876));
-            lista.Adicionar(new ContaCorrente(874, 58877));
-            lista.Adicionar(new ContaCorrente(874, 58878));
-            lista.Adicionar(new ContaCorrente(874, 58879));*/
+            Object contaDoGui = new Object(874, 588710);
+            lista.Adicionar(contaDoGui);
+            lista.Adicionar(new Object(874, 58871));
+            lista.Adicionar(new Object(874, 58872));
 
-          for (int i = 0; i < lista.Tamanho; i++)
+            Object[] contas = new Object[]
             {
-                ContaCorrente itemAtual = lista.GetItemNoIndice(i);
+                contaDoGui,
+                new Object(874, 58871),
+                new Object(874, 58872)
+
+             };
+
+            for (int i = 0; i < lista.Tamanho; i++)
+            {
+                Object itemAtual = lista.GetItemNoIndice(i);
                 Console.WriteLine($"Item na posição {i} = conta {itemAtual.Numero}/{itemAtual.Agencia}");
             }
 
@@ -33,31 +59,27 @@ namespace ByteBank.SistemaAgencia
             Console.WriteLine("Após remover o item");
 
 
-            Console.ReadLine();           
-            
+            Console.ReadLine();
+
         }
 
 
         static void TestaContaArray()
         {
-            ContaCorrente[] contas = new ContaCorrente[]
+            Object[] contas = new Object[]
             {
-                new ContaCorrente(874, 58874),
-                new ContaCorrente(872, 5887112),
-                new ContaCorrente(872, 58871452)
+                new Object(874, 58874),
+                new Object(872, 5887112),
+                new Object(872, 58871452)
             };
 
             for (int indice = 0; indice < contas.Length; indice++)
             {
-                ContaCorrente contaAtual = contas[indice];
+                Object contaAtual = contas[indice];
                 Console.WriteLine($"Conta {indice} {contas[indice].Numero}");
             }
             Console.ReadLine();
         }
-
-
-
-
 
         static void TestaArray()
         {

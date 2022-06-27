@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace ByteBank
 {
     ///<summary>Esta classe define uma Conta corrente do banco ByteBank</summary>
-    public class ContaCorrente
+    public class Object
     {
         
         private static int TaxaOperacao;
@@ -42,7 +42,7 @@ namespace ByteBank
         /// </summary>
         /// <param name="agencia">Representa o valor da propriedade <see cref="Agencia"/> e deve possuir um valor maior que zero.</param>
         /// <param name="numero">Representa o valor da propriedade <see cref="Numero"/> e deve possuir um valor maior que zero.</param>
-        public ContaCorrente(int agencia, int numero)
+        public Object(int agencia, int numero)
         {
             if (numero <= 0)
             {
@@ -87,7 +87,7 @@ namespace ByteBank
             _saldo += valor;
         }
 
-        public void Transferir(double valor, ContaCorrente contaDestino)
+        public void Transferir(double valor, Object contaDestino)
         {
             if (valor < 0)
             {
@@ -101,7 +101,7 @@ namespace ByteBank
 
         public override bool Equals(object obj)
         {
-            ContaCorrente outraConta = obj as ContaCorrente;
+            Object outraConta = obj as Object;
 
             if (outraConta == null)
             {

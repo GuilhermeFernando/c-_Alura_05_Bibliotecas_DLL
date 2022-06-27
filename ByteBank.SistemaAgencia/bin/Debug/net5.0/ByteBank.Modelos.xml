@@ -4,23 +4,23 @@
         <name>ByteBank.Modelos</name>
     </assembly>
     <members>
-        <member name="T:ByteBank.ContaCorrente">
+        <member name="T:ByteBank.Object">
             <summary>Esta classe define uma Conta corrente do banco ByteBank</summary>
         </member>
-        <member name="M:ByteBank.ContaCorrente.#ctor(System.Int32,System.Int32)">
+        <member name="M:ByteBank.Object.#ctor(System.Int32,System.Int32)">
             <summary>
             Cria uma instância de ContaCorrente com os argumentos utilizados
             </summary>
-            <param name="agencia">Representa o valor da propriedade <see cref="P:ByteBank.ContaCorrente.Agencia"/> e deve possuir um valor maior que zero.</param>
-            <param name="numero">Representa o valor da propriedade <see cref="P:ByteBank.ContaCorrente.Numero"/> e deve possuir um valor maior que zero.</param>
+            <param name="agencia">Representa o valor da propriedade <see cref="P:ByteBank.Object.Agencia"/> e deve possuir um valor maior que zero.</param>
+            <param name="numero">Representa o valor da propriedade <see cref="P:ByteBank.Object.Numero"/> e deve possuir um valor maior que zero.</param>
         </member>
-        <member name="M:ByteBank.ContaCorrente.Sacar(System.Double)">
+        <member name="M:ByteBank.Object.Sacar(System.Double)">
             <summary>
-            Realiza o saque e atualiza o valor da propriedade <see cref="P:ByteBank.ContaCorrente.Saldo"/>
+            Realiza o saque e atualiza o valor da propriedade <see cref="P:ByteBank.Object.Saldo"/>
             </summary>
             <exception cref="T:System.ArgumentException">Exceção lançada quando um valor negativo é utilizado no argumento <paramref name="valor"/>. </exception>
-            <exception cref="T:ByteBank.SaldoInsuficienteException">Exceção lançada quando o valor de <paramref name="valor"/> é maior que o valor da propriedade <see cref="P:ByteBank.ContaCorrente.Saldo"/>.</exception>
-            <param name="valor">Representa o valor do saque, deve ser maior que 0 e menor que o <see cref="P:ByteBank.ContaCorrente.Saldo"/>.</param>
+            <exception cref="T:ByteBank.SaldoInsuficienteException">Exceção lançada quando o valor de <paramref name="valor"/> é maior que o valor da propriedade <see cref="P:ByteBank.Object.Saldo"/>.</exception>
+            <param name="valor">Representa o valor do saque, deve ser maior que 0 e menor que o <see cref="P:ByteBank.Object.Saldo"/>.</param>
         </member>
     </members>
 </doc>
